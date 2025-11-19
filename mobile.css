@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    user-select: none;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+
+}
+
+.cont {
+    width: 375px;
+    height: 1405px;
+    padding: 56px 30px 46px 30px;
+}
+
+header {
+    width: 316px;
+    height: 147px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: lighter;
+    letter-spacing: 0.25px;
+}
+
+h1,
+h2 {
+    line-height: 140%;
+    color: #4D4F62;
+
+}
+
+span {
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    margin-top: 16px;
+}
+
+main {
+    width: 314px;
+    height: 1096px;
+    margin-top: 60px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 314px;
+    height: 250px;
+    background: #FAFAFA;
+    border-radius: 8px;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-top: 3px solid rgba(68, 211, 210, 1);
+    padding: 32px;
+
+
+}
+
+.txt1 {
+    width: 250px;
+    height: 75px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 135%;
+
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 160%;
+    color: #6A7178;
+    margin-top: 6px;
+}
+
+img {
+
+    margin-top: 32px;
+    margin-left: 186px;
+}
+
+
+.card2 {
+    border-color: rgba(234, 84, 84, 1);
+
+}
+
+.card3 {
+    border-color: rgba(252, 174, 74, 1)
+}
+
+.card4 {
+    border-color: rgba(84, 158, 242, 1);
+
+}

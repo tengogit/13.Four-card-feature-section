@@ -1,0 +1,78 @@
+@media(width>1440px) {
+    .cont {
+        width: auto;
+    }
+
+    main {
+        width: auto;
+        height: auto;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto auto auto;
+        column-gap: 32px;
+
+
+    }
+
+    body {
+        animation: welcome 1s alternate 1 linear;
+
+    }
+
+    header {
+        width: 540px;
+        height: 158px;
+        margin-left: 250px;
+    }
+
+    .card4 {
+        grid-area: 1/3;
+        position: relative;
+        top: 145px;
+    }
+
+    .card1 {
+        position: relative;
+        top: 145px;
+        a
+    }
+
+    .card3 {
+        grid-area: 2/2;
+
+    }
+
+    .card2 {
+        align-self: end;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .card:hover {
+        scale: 1.2;
+        transition: 2s;
+        background-color: orange;
+        cursor: pointer;
+    }
+
+    @keyframes welcome {
+        from {
+            background-color: lightblue;
+            margin-left: 100%;
+            width: 300%;
+        }
+
+        75% {
+            font-size: 300%;
+            margin-left: 25%;
+            width: 150%;
+        }
+
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+}
